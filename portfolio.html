@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <div id="header">
+      <div class="container">
+          <nav>
+              <h1 class="logo">About<span class="logo-p">me</span></h1>
+            <ul>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header-text">
+            <h2>Hello,</h2>
+            <h2 class="myself">I am <span>Arun Varma</span></h2>
+            <p>Passionate about crafting seamless digital experiences through the fusion of design and code.</p>
+          </div>
+      </div>
+  </div>
+  <!------------ About Section ----------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Image\img.avif">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a dedicated web developer with expertise in HTML, CSS, JavaScript.
+            My relentless dedication drives me to continually learn.My goal is to create responsive and user-friendly web interface. 
+
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Developer</span><br>HTML, CSS, Javascript</li>
+              <li><span>Programming Languages</span><br>C, C++ , JAVA</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Higer Education</span><br>12th Cleared</li>
+              <li><span>Currently Pursuing</span><br>Bachelor of Engineering</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------ services -------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>Web Design</h2>
+          <p>Comprehensive web design services, specializing in creating visually captivating and user-friendly websites</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>UI/UX Design</h2>
+          <p>Crafting visually appealing and intuitive user interfaces. Specializing in user-centric design</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Java Programming</h2>
+          <p>Offering expertise in developing robust and scalable applications.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------- Contact ----------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p>Email: arunvarma4873@gmail.com</p>
+          <p>Mobil : 842-161- 4204</p>
+          <div>
+            <img class="linkedin-logo" src="Image/linkedin.png">
+            <a href="linkedin.com/in/arun-varma-5a3b92259">arun varma</a>
+          </div>
+          <a href="#" class="btn">Dowload CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; 2024</p>
+    </div>
+  </div>
+
+ <script src="portfolio.js"></script>
+</body>
+</html>
